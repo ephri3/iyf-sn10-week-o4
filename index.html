@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Fundamentals App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Fundamentals</h1>
+    <!-- 🧮 Calculator -->
+
+    <section>
+        <h2>Calculator 🧮 </h2>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <div class="buttons">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="clearCalc()">Clear</button>
+        </div>
+        <h2>Result</h2>
+        <p id="result">Result: </p>
+
+        <h4>History</h4>
+        <ul id="history"></ul>
+    </section>
+
+    <!-- 🎓 Grade Tracker -->
+    <section>
+        <h5>Student Grade Tracker 🎓 </h5>
+        <button onclick="showGrades()">Show Grades</button>
+        <div id="grades"></div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
