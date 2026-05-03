@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #f64f59 50%, #f093fb 100%);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    background: linear-gradient(135deg, #13a35f, #800080);
+    padding: 15px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#result {
+    font-weight: bold;
+        margin-top: 10px;
+        color: rgb(219, 208, 11);
+}
+
+#history {
+    max-height: 150px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+
+#history li {
+    font-size: 14px;
+    color: rgb(219, 208, 11);
+}
